@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;	
+	/*vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  /*background: url('images/background.jpg');*/
+  /*background: url('images/background.png');*/
+  background: url('images/background_2.png');
+}
+
+A:link {
+	text-decoration:underline;
+	color:#30f;
+	}
+A:visited {
+	text-decoration:underline;
+	color:#609;
+	}
+A:hover {
+	text-decoration:none;
+	color:#f00;
+	}
+a, a:active {
+outline: none;
+	}
+
+.backgroundHeader {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 370px;
+  min-height: 370px;
+  background: url('images/background_flag.png');
+  background-repeat: no-repeat;
+}
+
+.templateWrapper {
+  position: relative;
+  width: 1040px;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.contentContainer {
+position: absolute;
+width: 810px;
+margin-left: 230px;
+margin-top: 390px;
+}
+
+.logo {
+position: absolute;
+width: 298px;
+height: 250px;
+margin-left: -30px;
+margin-top: 0px;
+background: url('images/logo.png');
+background-repeat: no-repeat;
+}
+
+.accomodation {
+position: absolute;
+width: 186px;
+height: 186px;
+margin-left: 260px;
+margin-top: 60px;
+background: url('images/accomodation.png');
+background-repeat: no-repeat;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.accomodation_active {
+position: absolute;
+width: 186px;
+height: 186px;
+margin-left: 260px;
+margin-top: 60px;
+background: url('images/accomodation_active.png');
+background-repeat: no-repeat;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.about {
+position: absolute;
+width: 186px;
+height: 186px;
+margin-left: 395px;
+margin-top: -75px;
+background: url('images/about.png');
+background-repeat: no-repeat;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.about_active {
+position: absolute;
+width: 186px;
+height: 186px;
+margin-left: 395px;
+margin-top: -75px;
+background: url('images/about_active.png');
+background-repeat: no-repeat;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.dates {
+position: absolute;
+width: 186px;
+height: 186px;
+margin-left: 530px;
+margin-top: 60px;
+background: url('images/dates.png');
+background-repeat: no-repeat;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.dates_active {
+position: absolute;
+width: 186px;
+height: 186px;
+margin-left: 530px;
+margin-top: 60px;
+background: url('images/dates_active.png');
+background-repeat: no-repeat;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.order {
+position: absolute;
+width: 186px;
+height: 186px;
+margin-left: 665px;
+margin-top: -75px;
+background: url('images/order.png');
+background-repeat: no-repeat;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.order_active {
+position: absolute;
+width: 186px;
+height: 186px;
+margin-left: 665px;
+margin-top: -75px;
+background: url('images/order_active.png');
+background-repeat: no-repeat;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.education {
+position: absolute;
+width: 186px;
+height: 186px;
+margin-left: 800px;
+margin-top: 60px;
+background: url('images/education.png');
+background-repeat: no-repeat;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.education_active {
+position: absolute;
+width: 186px;
+height: 186px;
+margin-left: 800px;
+margin-top: 60px;
+background: url('images/education_active.png');
+background-repeat: no-repeat;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+@font-face {
+	font-family: PTF55F; 
+	src: url(fonts/PTF55F.ttf);
+   	}
+
+.slogan {
+position: absolute;
+width: 240px;
+height: 277px;
+margin-left: 30px;
+margin-top: 300px;
+font-family: PTF55F;
+font-size: 28pt;
+color: #fff;
+line-height: 1.3;
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+.photo {
+position: absolute;
+width: 200px;
+height: 277px;
+margin-left: 30px;
+margin-top: 460px;
+background: url('images/photo.png');
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+background-repeat: no-repeat;
+}
+
+.promo {
+position: absolute;
+width: 270px;
+height: 800px;
+margin-left: 430px;
+margin-top: 304px;
+font-family: Arial;
+line-height: 1.5;
+font-size: 13pt;
+}
+
+.phone {
+position: absolute;
+width: 300px;
+height: 50px;
+margin-left: 740px;
+margin-top: 295px;
+font-family: Arial;
+font-size: 21pt;
+color: #0066cc;
+line-height: 1.5;
+}
+
+.footer {
+position: absolute;
+margin: 0 auto;
+width: 400px;
+font-family: Arial;
+font-size: 10pt;
+text-align: center;
+color: gray;
+}
