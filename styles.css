@@ -38,7 +38,7 @@ body {
 }
 
 h1 {
-	font-size: 22pt;
+	font-size: 20pt;
 	color: #0066cc;
 	line-height: 1.5;
 	font-family: PTF55F;
@@ -70,32 +70,30 @@ outline: none;
 .backgroundHeader {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 420px;
   height: 370px;
-  min-height: 370px;
   background: url('images/background_flag.png');
   background-repeat: no-repeat;
 }
 
 .templateWrapper {
-  position: relative;
-  width: 1040px;
-  margin: 0 auto;
-  z-index: 3;
+  width: 982px;
+  min-height: 100%;
+  margin: 0 auto 0 auto;
 }
 
 .contentContainer {
 position: absolute;
-width: 810px;
-margin-left: 230px;
-margin-top: 390px;
+width: ;
+margin-left: 250px;
+margin-top: 389px;
 }
 
 .logo {
 position: absolute;
 width: 298px;
 height: 250px;
-margin-left: -30px;
+margin-left: -75px;
 margin-top: 0px;
 background: url('images/logo.png');
 background-repeat: no-repeat;
@@ -105,7 +103,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 260px;
+margin-left: 215px;
 margin-top: 60px;
 background: url('images/accomodation.png');
 background-repeat: no-repeat;
@@ -120,7 +118,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 260px;
+margin-left: 215px;
 margin-top: 60px;
 background: url('images/accomodation_active.png');
 background-repeat: no-repeat;
@@ -135,7 +133,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 395px;
+margin-left: 350px;
 margin-top: -75px;
 background: url('images/about.png');
 background-repeat: no-repeat;
@@ -150,7 +148,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 395px;
+margin-left: 350px;
 margin-top: -75px;
 background: url('images/about_active.png');
 background-repeat: no-repeat;
@@ -165,7 +163,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 530px;
+margin-left: 485px;
 margin-top: 60px;
 background: url('images/dates.png');
 background-repeat: no-repeat;
@@ -180,7 +178,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 530px;
+margin-left: 485px;
 margin-top: 60px;
 background: url('images/dates_active.png');
 background-repeat: no-repeat;
@@ -195,7 +193,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 665px;
+margin-left: 620px;
 margin-top: -75px;
 background: url('images/order.png');
 background-repeat: no-repeat;
@@ -210,7 +208,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 665px;
+margin-left: 620px;
 margin-top: -75px;
 background: url('images/order_active.png');
 background-repeat: no-repeat;
@@ -225,7 +223,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 800px;
+margin-left: 755px;
 margin-top: 60px;
 background: url('images/education.png');
 background-repeat: no-repeat;
@@ -240,7 +238,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 800px;
+margin-left: 755px;
 margin-top: 60px;
 background: url('images/education_active.png');
 background-repeat: no-repeat;
@@ -290,10 +288,10 @@ background-repeat: no-repeat;
 
 .promo {
 position: absolute;
-width: 270px;
-height: 800px;
-margin-left: 430px;
-margin-top: 304px;
+width: 170px;
+height: 70px;
+margin-left: 410px;
+margin-top: 260px;
 font-family: Arial;
 line-height: 1.5;
 font-size: 13pt;
@@ -303,20 +301,20 @@ font-size: 13pt;
 position: absolute;
 width: 300px;
 height: 50px;
-margin-left: 740px;
-margin-top: 272px;
+margin-left: 680px;
+margin-top: 285px;
 font-family: Arial;
-font-size: 21pt;
 color: #0066cc;
 font-family: PTF55F;
 }
 
 .footer {
-/*position: absolute;
+position: absolute;
+bottom: 15px;
 margin: 0 auto;
-width: 400px;
+width: 100%;
 font-family: Arial;
-font-size: 10pt;
+font-size: 8pt;
 text-align: center;
-color: gray;*/
+color: gray;
 }
