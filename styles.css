@@ -36,6 +36,7 @@ body {
   /*background: url('images/background.png');*/
   background: url('images/background_2.png');
   position: relative;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -50,6 +51,7 @@ h2 {
 	font-size: 18pt;
 	color: #FF0033;
 	line-height: 1.5;
+	padding-left: 25px;
 }
 
 h3 {
@@ -117,9 +119,17 @@ td{
 position: absolute;
 width: 672px;
 margin-left: 250px;
-margin-top: 389px;
+margin-top: 435px;
 background-color: rgba(255, 255, 255, 0.6);
-padding: 30px;
+padding: 10px 30px 30px 30px;
+}
+
+.mainContainer {
+position: absolute;
+width: 672px;
+margin-left: 250px;
+margin-top: 435px;
+padding: 10px 30px 30px 30px;
 }
 
 .logo {
@@ -136,7 +146,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 215px;
+margin-left: 214px;
 margin-top: 60px;
 background: url('images/accomodation.png');
 background-repeat: no-repeat;
@@ -151,7 +161,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 215px;
+margin-left: 214px;
 margin-top: 60px;
 background: url('images/accomodation_active.png');
 background-repeat: no-repeat;
@@ -166,8 +176,8 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 350px;
-margin-top: -75px;
+margin-left: 348px;
+margin-top: -74px;
 background: url('images/about.png');
 background-repeat: no-repeat;
 	-webkit-transform: rotate(45deg);
@@ -181,8 +191,8 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 350px;
-margin-top: -75px;
+margin-left: 348px;
+margin-top: -74px;
 background: url('images/about_active.png');
 background-repeat: no-repeat;
 	-webkit-transform: rotate(45deg);
@@ -196,7 +206,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 485px;
+margin-left: 482px;
 margin-top: 60px;
 background: url('images/dates.png');
 background-repeat: no-repeat;
@@ -211,7 +221,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 485px;
+margin-left: 482px;
 margin-top: 60px;
 background: url('images/dates_active.png');
 background-repeat: no-repeat;
@@ -226,8 +236,8 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 620px;
-margin-top: -75px;
+margin-left: 616px;
+margin-top: -74px;
 background: url('images/order.png');
 background-repeat: no-repeat;
 	-webkit-transform: rotate(45deg);
@@ -241,8 +251,8 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 620px;
-margin-top: -75px;
+margin-left: 616px;
+margin-top: -74px;
 background: url('images/order_active.png');
 background-repeat: no-repeat;
 	-webkit-transform: rotate(45deg);
@@ -256,7 +266,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 755px;
+margin-left: 750px;
 margin-top: 60px;
 background: url('images/education.png');
 background-repeat: no-repeat;
@@ -271,7 +281,7 @@ background-repeat: no-repeat;
 position: absolute;
 width: 186px;
 height: 186px;
-margin-left: 755px;
+margin-left: 750px;
 margin-top: 60px;
 background: url('images/education_active.png');
 background-repeat: no-repeat;
@@ -280,6 +290,121 @@ background-repeat: no-repeat;
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
+}
+
+.skills {
+	background: url('images/skills_builder.png');
+	width: 220px;
+	height: 273px;
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 25px;
+}
+
+.lab {
+	background: url('images/englishlab_club.png');
+	width: 220px;
+	height: 273px;
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 25px;
+
+}
+
+.club {
+	background: url('images/cinema_club.png');
+	width: 220px;
+	height: 273px;
+	float:left;
+	margin-bottom: 25px;
+}
+
+.dance{
+
+	background: url('images/dance.png');
+	width: 220px;
+	height: 273px;
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 6px;
+}
+.tourist{
+
+	background: url('images/tourist.png');
+	width: 220px;
+	height: 273px;
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 6px;
+}
+.theatre{
+
+	background: url('images/theatre.png');
+	width: 220px;
+	height: 273px;
+	float: left;
+	margin-bottom: 25px;
+}
+.sport{
+
+	background: url('images/sport.png');
+	width: 220px;
+	height: 273px;
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 6px;
+}
+.teacher{
+
+	background: url('images/best.png');
+	width: 220px;
+	height: 273px;
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 6px;
+}
+.perfomance{
+
+	background: url('images/perfomance.png');
+	width: 220px;
+	height: 273px;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.white-label {
+font-size: 18pt;
+font-family: Arial;
+color: #fff;
+padding: 145px 10px 0px 10px;
+line-height: 1;
+}
+
+.white-label-small {
+font-size: 12pt;
+font-family: Arial;
+color: #fff;
+padding: 0px 10px 0px 10px;
+line-height: 1;
+margin-top: -10px;
+}
+
+.black-label {
+font-size: 18pt;
+font-family: Arial;
+color: #000;
+padding: 145px 10px 0px 10px;
+line-height: 1;
+
+}
+
+.black-label-small {
+font-size: 12pt;
+font-family: Arial;
+color: #000;
+padding: 0px 10px 0px 10px;
+line-height: 1;
+margin-top: -10px;
 }
 
 @font-face {
@@ -324,7 +449,7 @@ position: absolute;
 width: 190px;
 height: 70px;
 margin-left: 410px;
-margin-top: 260px;
+margin-top: 280px;
 font-family: Arial;
 line-height: 1.5;
 font-size: 13pt;
@@ -333,10 +458,12 @@ font-style: italic;
 
 .phone {
 position: absolute;
-width: 300px;
-height: 50px;
-margin-left: 680px;
-margin-top: 285px;
+width: 320px;
+height: 70px;
+padding: 10px;
+background: url('images/cloud.png');
+margin-left: 642px;
+margin-top: 273px;
 font-family: Arial;
 color: #0066cc;
 font-family: PTF55F;
@@ -350,5 +477,5 @@ width: 672px;
 font-family: Arial;
 font-size: 8pt;
 text-align: center;
-color: gray;
+color: #555;
 }
